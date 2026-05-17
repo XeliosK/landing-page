@@ -1,0 +1,131 @@
+body {
+    font-family: "Roboto", sans-serif;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    height: 72px;
+    background: #1F2937;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 200px 0px 200px;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: 600;
+    color: #f9faf8;
+    display: flex;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    gap: 12px;
+}
+
+a {
+    color: #f9faf8;
+    text-decoration: none;
+}
+
+.section1 {
+    padding: 0px 200px 0px 200px;
+    height: 400px;
+    display: flex;
+    background: #1F2937;
+    align-items: center;
+    justify-content: space-evenly;
+    color: #f9faf8;
+}
+
+.button {
+    background-color: #3882F6;
+    border: none;
+    font-size: 16px;
+    font-weight: 550;
+    padding: 10px 30px 10px 30px;
+    border-radius: 8px;
+    color: #f9faf8;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    margin-top: 8px;
+}
+
+.section1left {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 400px;
+}
+.section1 img {
+    display: flex;
+    align-items: center;
+}
+
+.bold {
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.text {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.section2 {
+    padding: 0px 200px 0px 200px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section3 {
+    height: 400px;
+    padding: 0px 200px 0px 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.quoteref {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.section4 {
+    height: 400px;
+    padding: 0px 200px 0px 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.blue {
+    display: flex;
+    justify-content: space-between;
+}
+
+.blueleft {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
