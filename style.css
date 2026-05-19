@@ -26,11 +26,11 @@ ul {
     list-style: none;
     margin: 0;
     padding: 0;
-    gap: 12px;
+    gap: 14px;
 }
 
 a {
-    color: #f9faf8;
+    color: #E5E7EB;
     text-decoration: none;
 }
 
@@ -40,8 +40,9 @@ a {
     display: flex;
     background: #1F2937;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content: space-between;
     color: #f9faf8;
+    padding-bottom: 20px;
 }
 
 .button {
@@ -87,23 +88,68 @@ a {
     align-items: center;
 }
 
+.infoheader {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 100px;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    font-weight: 800;
+    font-size: 36px;
+}
+
+.imagespace {
+    width: 150px;
+    height: 150px;
+    background-color: #f9faf8;
+    border: 4px solid #3882F6;
+    border-radius: 15px;
+}
+
 .cards {
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 25px;
+    width: 150px;
+}
+
+.cardtext {
+    margin-top: 8px;
+    text-align: center;
+    display: flex;
+}
+
 .section3 {
-    height: 400px;
+    height: 500px;
     padding: 0px 200px 0px 200px;
+    background-color: #E5E7EB;
     display: flex;
     flex-direction: column;
     justify-content: center;
+    margin-top: 60px;
+}
+
+.quotetext {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 300;
+    color: #1f2937;
 }
 
 .quoteref {
     display: flex;
     justify-content: flex-end;
+    font-weight: 700;
+    font-size: 24px;
 }
 
 .section4 {
@@ -117,15 +163,44 @@ a {
 .blue {
     display: flex;
     justify-content: space-between;
+    background-color: #3882f6;
+    border-radius: 7px;
+    padding: 40px 80px 40px 80px;
+    justify-content: center;
+    align-items: center;
+    gap: 80px;
 }
 
 .blueleft {
     display: flex;
     flex-direction: column;
+    color: #f9faf8;
+    gap: 4px;
+}
+
+.bluetext {
+    font-weight: 600;
+    font-size: 24px;
+}
+.bluebutton {
+    background-color: #3882F6;
+    border: 2px solid #f9faf8;
+    font-size: 16px;
+    font-weight: 550;
+    width: 120px;
+    height: 35px;
+    border-radius: 8px;
+    color: #f9faf8;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
 }
 
 .footer {
     display: flex;
     justify-content: center;
     align-items: center;
+    height: 90px;
+    background-color: #1F2937;
+    color: #E5E7EB
 }
